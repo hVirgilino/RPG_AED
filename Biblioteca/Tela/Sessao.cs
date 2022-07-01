@@ -115,11 +115,9 @@ namespace Biblioteca.Tela
                 LocalAtual = MundoAtual.LocalEm(LocalAtual.X - 1, LocalAtual.Y);
             }
 
-            if (LocalAtual == MundoAtual.LocalEm(0, 0))
-            {
-                Menus.Tocar(Menus._toqueInstalacao);
-                _menuAtual.Iniciar();
-            }
+            ConferePresenca(_menuAtual);
+            _menuAtual.Andar();
+            
         }
 
         public void IrPra(Menus _menuAtual, int x, int y)

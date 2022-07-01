@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\source\\repos\\RPG_AED\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\RPG_AED\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\source\\repos\\RPG_AED\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\RPG_AED\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\RPG_AED\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\RPG_AED\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\RPG_AED\\Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\RPG_AED\\Biblioteca\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\RPG_AED\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\RPG_AED\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

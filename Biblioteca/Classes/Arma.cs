@@ -10,6 +10,7 @@ namespace Biblioteca.Classes
     {
         private int minDano;
         public int MinDano { get => minDano; private set => minDano = value; }
+
         private int maxDano;
         public int MaxDano { get => maxDano; private set => maxDano = value; }
 

@@ -13,7 +13,7 @@ namespace Biblioteca.Classes
         private int y;
         private string descricao;
         private string nome;
-
+        
         public int X { get => x; private set => x = value; }
         public int Y { get => y; private set => y = value; }
         public string Nome { get => nome; private set => nome = value; }
@@ -31,14 +31,9 @@ namespace Biblioteca.Classes
 
         public void CriarMonstroAqui(int monstroID)
         {
-            if (MonstrosAqui.Exists(m => m.ID == monstroID))
-            {
-                MonstrosAqui.First(m => m.ID == monstroID);
-            }
-            else
-            {
-                MonstrosAqui.Add(CriadorMonstro.GetMonstro(monstroID));
-            }
+            
+            MonstrosAqui.Add(CriadorMonstro.GetMonstro(monstroID));
+            
         }
 
         public void CriarMonstroAqui(int monstroID, int quantidade)
@@ -52,10 +47,7 @@ namespace Biblioteca.Classes
 
         public void RemoverMonstroDaqui(int monstroID)
         {
-            if (MonstrosAqui.Exists(m => m.ID == monstroID))
-            {
-                MonstrosAqui.RemoveAll(m => m.ID == monstroID);
-            }
+             MonstrosAqui.RemoveAll(m => m.ID == monstroID);
         }
 
         public void RemoverMonstrosDaqui()
@@ -67,14 +59,9 @@ namespace Biblioteca.Classes
         }
         public void CriarMercadorAqui(int id)
         {
-            if (MercadorAqui.Exists(m => m.ID == id))
-            {
-                _ = MercadorAqui.First(m => m.ID == id);
-            }
-            else
-            {
-                MercadorAqui.Add(CriadorMercador.GetMercador(id));
-            }
+
+            MercadorAqui.Add(CriadorMercador.GetMercador(id));
+            
         }
 
     }

@@ -295,7 +295,7 @@ namespace Biblioteca.Tela
                         Andar();
                     }
                     _sessaoAtual.IrProOeste(this);
-                    Iniciar();
+                    
                     return;
                 case "Voltar":
                     return;
@@ -767,7 +767,7 @@ namespace Biblioteca.Tela
             EscreverLento.EscreverLinha("Preciso subir rápido, outros monstros estão nascendo.");
             AnsiConsole.Markup("[silver italic]Aperte Enter para continuar...[/]\n");
             Console.ReadKey();
-            if (_jogadorAtual.Nivel > 3)
+            if (_jogadorAtual.Nivel >= 3)
             {
                 _sessaoAtual.IrProNorte(this);
                 TelaTorreNivel1();
@@ -785,7 +785,7 @@ namespace Biblioteca.Tela
             EscreverLento.EscreverLinha("Preciso subir rápido, outros monstros estão nascendo.");
             AnsiConsole.Markup("[silver italic]Aperte Enter para continuar...[/]\n");
             Console.ReadKey();
-            if (_jogadorAtual.Nivel > 4)
+            if (_jogadorAtual.Nivel >= 4)
             {
                 _sessaoAtual.IrProNorte(this);
                 TelaTorreNivel2();
@@ -803,7 +803,7 @@ namespace Biblioteca.Tela
             EscreverLento.EscreverLinha("Estou perto do último andar.");
             AnsiConsole.Markup("[silver italic]Aperte Enter para continuar...[/]\n");
             Console.ReadKey();
-            if (_jogadorAtual.Nivel > 7)
+            if (_jogadorAtual.Nivel >= 7)
             {
                 _sessaoAtual.IrProNorte(this);
                 TelaTorreNivel3();
